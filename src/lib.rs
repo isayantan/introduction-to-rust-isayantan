@@ -9,5 +9,5 @@ pub fn run(){
     let mut state = sample::State::<N_DIM>::new(0xdeadbeef);
     for _ in 0..N_STEP {
         state.take_step();
-        log(&format!("{:?}, {:?}", state.arr[0], state.arr[[1])
+        log(&format!("{:?}, {:?}", state.arr[0], state.arr[[1]))
 }
